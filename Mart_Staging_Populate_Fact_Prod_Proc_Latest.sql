@@ -1,4 +1,4 @@
-
+-- Latest Change
 USE AbsaCustomerValueManagementMartH
 GO
 
