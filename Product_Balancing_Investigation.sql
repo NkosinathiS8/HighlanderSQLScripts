@@ -9,4 +9,4 @@ group by b.InformationDateSk,glb.ExcoCode,b.GLAcctCode
 order by b.InformationDateSk
 
 
-SELECT GETDATE() AS TODAY_NOW
+SELECT GETDATE() AS TODAY_NOW -- New added line
