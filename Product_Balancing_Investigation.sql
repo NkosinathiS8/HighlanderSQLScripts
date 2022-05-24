@@ -7,3 +7,6 @@ inner join AbsaMasterData.Dimension.MillleniumFlat m on m.CostCentreSk = b.GLCos
 where b.InformationDateSk = 20211231
 group by b.InformationDateSk,glb.ExcoCode,b.GLAcctCode
 order by b.InformationDateSk
+
+
+SELECT GETDATE() AS TODAY_NOW
